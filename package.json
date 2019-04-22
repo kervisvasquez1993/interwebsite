@@ -1,0 +1,20 @@
+{
+  "name": "interwebsite",
+  "version": "1.0.0",
+  "description": "Desarrollo de pagina web para emprese de telecom interwebsite ",
+  "main": "index.js",
+  "author": "kervis vasquez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "build": "babel src/es6 -d output/js --watch"
+  },
+  "dependencies": {}
+}
