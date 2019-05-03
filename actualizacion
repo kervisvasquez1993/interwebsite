@@ -1,0 +1,35 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: public <public@america-12345>
+#
+# En la rama master
+# Su rama está actualizada con «origin/master».
+#
+# Cambios para hacer commit:
+#	nuevo archivo: .idea/vcs.xml
+#	modificado:    .idea/workspace.xml
+#	nuevo archivo: output/cobertura.html
+#	modificado:    output/css/style.css
+#	nuevo archivo: output/img/cardonal.jpg
+#	nuevo archivo: output/img/cobertura-alcance.jpg
+#	nuevo archivo: output/img/cobertura.jpg
+#	nuevo archivo: output/img/interwebsite.jpg
+#	nuevo archivo: output/img/portada-inter.png
+#	nuevo archivo: output/img/quienes-somos111.jpg
+#	nuevo archivo: output/img/quienes-somos2.jpg
+#	nuevo archivo: output/img/quienes-somos3.jpg
+#	nuevo archivo: output/img/sanjoaquin.jpg
+#	nuevo archivo: output/img/tigre-cobertura.jpg
+#	nuevo archivo: output/img/toco.jpg
+#	nuevo archivo: output/img/web-site.jpg
+
+#	nuevo archivo: output/img/yagua-cobertura.jpg
+#	modificado:    output/index.html
+#	modificado:    output/js/es6.js
+#	nuevo archivo: output/nosostros.html
+#	nuevo archivo: output/servicio.html
+#	modificado:    package.json
+#	modificado:    src/scss/style.scss
+#

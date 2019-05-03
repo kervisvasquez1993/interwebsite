@@ -1,51 +1,470 @@
-$color:#ccc;
-
-*{
+* {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
-body {
-
-  min-height: 300vh;}
-header{
+.cabecera {
   background: url("../img/torre-antena.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center center;
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }
 
-.redes_sociales{
-  height: 5vh;
-}
-.hijo2{
-
-  height: 100%;
-
-}
-.hijo2 li{
-  height: 100%;
-  background: #00bcd4;
+.flex-mobile {
+  height: 6vh;
+  opacity: 0.7;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-}
-.contenedor{
+  color: white; }
+
+.redes_sociales .flex-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 100%; }
+
+.redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.contacto a,
+.redes-sociales a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.fa p {
+  font-size: 1rem;
+  display: inline-block; }
+
+.contenedor {
   width: 90%;
   max-width: 1000%;
-  margin: auto;
-}
+  margin: auto; }
 
-#particles-js{
+#particles-js {
   width: 100vw;
   height: 100vh;
-  background: rgba(0,0,0,0.13);
-  position: absolute}
+  background: rgba(0, 0, 0, 0.13);
+  position: absolute; }
+
 .cabecera {
   width: 100vw;
-  height: 100vh;}
-.nav-config{
-  opacity: 0.7;
+  height: 100vh; }
+
+.nav-config {
+  opacity: 0.7; }
+
+.fixed-nav #main {
+  position: fixed;
+  -webkit-box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1); }
+
+.header-contenido {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center; }
+
+.lema {
+  text-align: center;
+  padding: 2rem; }
+
+/*/////////////contenido aside////////////*/
+.inter-contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin: .5rem;
+  padding: 0 .5rem;
+  border: 3px rgba(0, 0, 0, 0.2) solid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.inter-h2 {
+  font-size: 2.5rem;
+  font-weight: bold; }
+
+.inter-contenido img {
+  width: 100%; }
+
+.servicio {
+  width: 60%;
+  color: white; }
+
+.inter-servicio {
+  background: url("../img/wireless.jpg");
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
+.inter-servicio > * {
+  color: white; }
+
+.inter-h3 {
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+.servicio1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.servicio-texto {
+  width: 70%; }
+
+.icono i {
+  font-size: 3rem;
+  color: #1aa8ea;
+  font-weight: 500; }
+
+/*caja padre*/
+.caja-padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center; }
+
+.caja-hijo-1 {
+  background: red;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.caja-hijo-1 img {
+  width: 100%; }
+
+.caja-hijo-2 {
+  background: yellow;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.caja-hijo-2 img {
+  width: 100%; }
+
+.caja-hijo-3 {
+  background: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.caja-hijo-3 img {
+  width: 100%; }
+
+.hijo-padre2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.inter-lema {
+  background: url("../img/torre3.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+@media (min-width: 768px) {
+  .nav-flex .redes-sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 20%; }
+  .nav-flex .redes-sociales a {
+    width: 10%; }
+  .inter-contenido div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+  .inter-contenido .bienvenido-img {
+    width: 100%; }
+  .bienvenido-contenido {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 3rem; }
+  .inter-servicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .inter-servicio-hijo-padre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .servicio1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+  .caja-padre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .caja-hijo-1,
+  .caja-hijo-2,
+  .caja-hijo-3 {
+    width: 33.33%; }
+  .caja-hijo-1 img,
+  .caja-hijo-2 img,
+  .caja-hijo-3 img {
+    width: 100%;
+    height: 50%; } }
+
+/*---------------------nosotros-------------------------*/
+.nav-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 2rem; }
+
+.logo {
+  width: 7vw; }
+
+.logo img {
+  width: 100%;
+  border-radius: 50%; }
+
+.social-media {
+  width: 15%;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.barra-nav {
+  background: #1aa8ea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+/*.header-nosotros{
+      background: url('../img/antena.jpg');
+      height: vh;
+      width: 100vw;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }*/
+.nombre-ubicacion {
+  width: 99vw;
+  height: 75vh;
+  background: url("../img/antena.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center; }
+
+.menu {
+  display: none; }
+
+.kervis-sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: steelblue;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50vw; }
+
+/*modulo de css grid*/
+.item-img1 img,
+.item-img2 img,
+.item-img3 img,
+.item-img4 img,
+{
+  width: 100%;
 }
+
+.grid-padre{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-template-areas: 'img1 img1 img2 img2'
+                       'img1 img1 img2 img2'
+                       'img1 img1 img3 img4'
+                       'img1 img1 img3 img4';
+  grid-gap: 7px 7px;   
+  
+  width: 99vw;
+  height: 90vh;
+}
+.item-img1{
+  grid-area: img1;
+  background: url('../img/torre4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.item-img2{
+  grid-area: img2;
+  background: red;
+  background: url('../img/torre3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.item-img3{
+  grid-area: img3;
+  background: url('../img/torre2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.item-img4{
+  grid-area: img4;
+  background: url('../img/torre.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 25vw; }
+  .social-media {
+    width: 40%; } }
+
+@media screen and (min-width: 0px) and (max-width: 788px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .barra-nav {
+    display: none; } }
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+  .logo {
+    width: 13vw; }
+  .social-media {
+    width: 20%; } }
