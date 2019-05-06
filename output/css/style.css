@@ -472,10 +472,60 @@ height: 100%; }
   
 
   /**********************mobile primero**********************************************/
-  .cobertura2{
+.kervis-pintar{
+  display: none;
+}
+.kervis-iconos{
+  font-size: 6rem;
+}
+a{text-decoration: none;}.kervis-center{
+    display: flex;
+  justify-content: space-between;
+}
+.tipo-servicio{
+  font-size: 2rem !important;
+  color: blueviolet !important;
+font-weight: bold !important;}
+
+.social i{
+  font-size: 3rem;
+  padding: 0.5rem 2rem;
+  color:black;
+}
+.kervis-img{
+    width: 100%;
+}
+.cobertura2{
     background: #2874a6;
 
-  }
+  }.heading{
+  text-tranform:uppercese;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  margin-right: -3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #333;
+  position: relative;
+   }
+   .heading::after{
+     content: "";
+     width: 10rem;
+     height: 0.8rem;
+     background:#45e19f;
+     position: absolute;
+     bottom: -2rem;
+     left: 50%;
+     transform: translateX(-50%);
+     border-radius: 2rem;
+   }
+   .card-wrapper-1{
+  display: flex;
+     align-items: center;
+     align-content: center;
+     flex-direction: column;
+
+   }
   .bobertura-content2,
   .bobertura-content3{
     display: flex;
@@ -484,6 +534,124 @@ height: 100%; }
     justify-content: center;
     text-align:center;
   }
+  .card10{
+    width:25rem;
+    background: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    box-shadow: .5rem .5rem 3rem rgba(0,0,0,1);
+  }
+  .card10 .img-card1{
+    width: 100%;
+    height: 26rem;
+    object-fit: cover;
+
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+
+
+
+  }
+  .profile-img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -10rem;
+    z-index: 999;
+    border:1rem solid #ebeef8;
+  }
+  .card10 h3{
+    font-size: 2.5rem;
+    color: #333;
+    margin: 1.5rem 0;
+  }
+  .job-title{
+    color:#777;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+  }
+  .about{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    text-align: center;
+    color: #333333;
+  }
+  .card10 .btn-1{
+    padding: 1rem 2.5rem;
+    background: #445ea3;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    color: #eeeeee;
+    font-size: 1.4rem;
+  }
+  .social-media-1 {
+    with:100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+    background: #45e19f;
+
+  }
+  .social-media-1 i {
+    font-size: 3rem;
+  }
+.fa-facebook{
+  color:#3b5999;
+}
+
+.fa-twitter{
+  color: #55acee;
+}
+.fa-instagram{
+  color: #dd4b39;
+}
+
+@media screen and (min-width: 700px){
+  .card-wrapper-1{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card10{
+    margin: 2rem;
+  }
+    @keyframes fadeIn {
+
+      from{
+      opacity: 0;
+          }
+      to{
+      opacity: 1;
+        }
+    }
+    .card10:nth-child(1){
+      animation: fadeIn .5s .5s backwards;
+    }
+  .card10:nth-child(2){
+    animation: fadeIn .5s 1s backwards;
+  }
+  .card10:nth-child(3){
+    animation: fadeIn .5s 1.5s backwards;
+  }
+  .card10:nth-child(4){
+    animation: fadeIn .5s 2s backwards;
+  }
+
+}
+  
+
   .cobertura3{
     background:  #73c6b6 ;
   }
