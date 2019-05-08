@@ -6,14 +6,9 @@
       <change beforePath="$PROJECT_DIR$/output/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/cobertura.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/cobertura.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/output/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/js/es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/output/js/es6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/nosostros.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/nosostros.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/servicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/servicio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/es6/es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/es6/es6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,10 +23,12 @@
     <session id="2014136039">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.104" value="1" />
+          <entry key="project.open.time.112" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.169" value="1" />
           <entry key="project.open.time.183" value="1" />
           <entry key="project.open.time.185" value="1" />
           <entry key="project.open.time.196" value="1" />
@@ -49,14 +46,14 @@
           <entry key="project.open.time.61" value="2" />
           <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.94" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="3" />
           <entry key="css" value="2" />
-          <entry key="html" value="22" />
+          <entry key="html" value="26" />
           <entry key="js" value="15" />
           <entry key="json" value="6" />
           <entry key="scss" value="2" />
@@ -65,7 +62,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="22" />
+          <entry key="HTML" value="26" />
           <entry key="JSON" value="9" />
           <entry key="JavaScript" value="15" />
           <entry key="SCSS" value="2" />
@@ -74,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2959" />
-          <entry key="html" value="6850" />
+          <entry key="html" value="6951" />
           <entry key="js" value="1489" />
           <entry key="json" value="52" />
           <entry key="scss" value="437" />
@@ -83,7 +80,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2959" />
-          <entry key="HTML" value="6850" />
+          <entry key="HTML" value="6951" />
           <entry key="JSON" value="52" />
           <entry key="JavaScript" value="1489" />
           <entry key="SCSS" value="437" />
@@ -96,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3990">
-              <caret line="266" selection-start-line="266" selection-end-line="266" />
+            <state relative-caret-position="476">
+              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -105,8 +102,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output/servicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
+            <state relative-caret-position="141">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/nosostros.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/contacto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/cobertura.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -147,18 +180,18 @@
         <option value="$PROJECT_DIR$/src/es6.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/output/index.html" />
         <option value="$PROJECT_DIR$/contacto.html" />
         <option value="$PROJECT_DIR$/src/scss/style.scss" />
         <option value="$PROJECT_DIR$/src/es6/es6.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/output/cobertura.html" />
-        <option value="$PROJECT_DIR$/output/contacto.html" />
-        <option value="$PROJECT_DIR$/output/nosostros.html" />
         <option value="$PROJECT_DIR$/output/index2.html" />
-        <option value="$PROJECT_DIR$/output/blog.html" />
         <option value="$PROJECT_DIR$/output/js/es6.js" />
         <option value="$PROJECT_DIR$/output/css/style.css" />
+        <option value="$PROJECT_DIR$/output/blog.html" />
+        <option value="$PROJECT_DIR$/output/cobertura.html" />
+        <option value="$PROJECT_DIR$/output/contacto.html" />
+        <option value="$PROJECT_DIR$/output/index.html" />
+        <option value="$PROJECT_DIR$/output/nosostros.html" />
         <option value="$PROJECT_DIR$/output/servicio.html" />
       </list>
     </option>
@@ -293,18 +326,20 @@
       <workItem from="1557186008944" duration="9481000" />
       <workItem from="1557195888062" duration="7415000" />
       <workItem from="1557203899713" duration="3929000" />
-      <workItem from="1557208591929" duration="371000" />
+      <workItem from="1557208591929" duration="2089000" />
+      <workItem from="1557227063678" duration="627000" />
+      <workItem from="1557313496893" duration="1340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107751000" />
+    <option name="totallyTimeSpent" value="111436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1440" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26077738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26077738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -316,7 +351,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2914863" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2900433" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,13 +392,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/es6.js" />
-    <entry file="file://$PROJECT_DIR$/output/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -399,27 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/nosostros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/contacto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/cobertura.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/js/es6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -427,20 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4335">
-          <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output/index2.html" />
     <entry file="file://$PROJECT_DIR$/output/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7575">
@@ -448,10 +442,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/output/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/cobertura.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/contacto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/nosostros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/output/servicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="252" lean-forward="true" selection-start-line="252" selection-end-line="252" />
+        <state relative-caret-position="141">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>
