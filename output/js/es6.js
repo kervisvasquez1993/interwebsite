@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var instances = M.Materialbox.init(mb);
   var elems3 = document.querySelectorAll('.collapsible');
   var instances = M.Collapsible.init(elems3);
+  var elems4 = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems4);
 });
 var btn_pintar = document.getElementById('btn_pintar');
 var kervis_pintar = document.getElementById('kervis-pintar');
