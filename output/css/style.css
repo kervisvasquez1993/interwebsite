@@ -888,7 +888,17 @@ img {
     display: block;
     margin: 3rem; }
   .grid-padre {
-    display: none; } }
+    display: none; }
+    .slider-width{
+        width: 97vw;
+        margin: 2rem 0;
+    }
+    .productos-flex{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 992px) {
 
@@ -1007,7 +1017,17 @@ img {
     padding: 2rem; }
   .cobertura-content {
     text-align: center;
-    display: none; } }
+    display: none; }
+
+.slider-width{
+    width: 97vw;
+    margin: 2rem 0;
+}
+.productos-flex{
+    display: flex;
+    align-items: center;
+}
+}
 
 /**********--maeonry--**************/
 .img-masonry {
