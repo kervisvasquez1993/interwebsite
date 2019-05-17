@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="80d57b05-6692-492d-b807-99e585bce4f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/cobertura.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/cobertura.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/output/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/nosostros.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/nosostros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/servicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/servicio.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,6 +35,7 @@
           <entry key="project.open.time.251" value="1" />
           <entry key="project.open.time.259" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
@@ -54,16 +50,17 @@
           <entry key="project.open.time.61" value="3" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.94" value="2" />
           <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="3" />
           <entry key="css" value="2" />
-          <entry key="html" value="32" />
+          <entry key="html" value="33" />
           <entry key="js" value="16" />
           <entry key="json" value="6" />
           <entry key="scss" value="2" />
@@ -72,7 +69,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="32" />
+          <entry key="HTML" value="33" />
           <entry key="JSON" value="9" />
           <entry key="JavaScript" value="16" />
           <entry key="SCSS" value="2" />
@@ -80,8 +77,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3510" />
-          <entry key="html" value="7865" />
+          <entry key="css" value="3645" />
+          <entry key="html" value="7982" />
           <entry key="js" value="1491" />
           <entry key="json" value="52" />
           <entry key="scss" value="437" />
@@ -89,8 +86,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3510" />
-          <entry key="HTML" value="7865" />
+          <entry key="CSS" value="3645" />
+          <entry key="HTML" value="7982" />
           <entry key="JSON" value="52" />
           <entry key="JavaScript" value="1491" />
           <entry key="SCSS" value="437" />
@@ -103,29 +100,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output/nosostros.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output/servicio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="295" column="10" lean-forward="true" selection-start-line="295" selection-start-column="10" selection-end-line="295" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/productos.html">
+        <entry file="file://$PROJECT_DIR$/output/servicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-              <folding>
-                <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="1589">
+              <caret line="398" column="11" selection-start-line="398" selection-start-column="11" selection-end-line="398" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -139,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2936">
-              <caret line="898" column="31" selection-start-line="898" selection-start-column="31" selection-end-line="898" selection-end-column="31" />
+            <state relative-caret-position="-93">
+              <caret line="735" column="22" selection-start-line="735" selection-start-column="22" selection-end-line="735" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -165,6 +150,7 @@
       <find>sobreMi</find>
       <find>about_description</find>
       <find>inter-contenido</find>
+      <find>@media</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,14 +170,14 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/output/index2.html" />
         <option value="$PROJECT_DIR$/output/js/es6.js" />
-        <option value="$PROJECT_DIR$/output/css/style.css" />
         <option value="$PROJECT_DIR$/output/productos.html" />
         <option value="$PROJECT_DIR$/output/blog.html" />
         <option value="$PROJECT_DIR$/output/cobertura.html" />
         <option value="$PROJECT_DIR$/output/contacto.html" />
         <option value="$PROJECT_DIR$/output/index.html" />
-        <option value="$PROJECT_DIR$/output/nosostros.html" />
         <option value="$PROJECT_DIR$/output/servicio.html" />
+        <option value="$PROJECT_DIR$/output/nosostros.html" />
+        <option value="$PROJECT_DIR$/output/css/style.css" />
       </list>
     </option>
   </component>
@@ -317,12 +303,14 @@
       <workItem from="1557877103311" duration="1076000" />
       <workItem from="1557920084028" duration="558000" />
       <workItem from="1557966409661" duration="592000" />
-      <workItem from="1557967535498" duration="5336000" />
+      <workItem from="1557967535498" duration="5494000" />
+      <workItem from="1558042668952" duration="537000" />
+      <workItem from="1558048635029" duration="5853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141086000" />
+    <option name="totallyTimeSpent" value="147634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1440" height="838" extended-state="6" />
@@ -340,7 +328,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2900433" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2900433" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,20 +386,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/index2.html" />
-    <entry file="file://$PROJECT_DIR$/output/js/es6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2936">
-          <caret line="898" column="31" selection-start-line="898" selection-start-column="31" selection-end-line="898" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -440,17 +414,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/nosostros.html">
+    <entry file="file://$PROJECT_DIR$/output/js/es6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/productos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        <state relative-caret-position="395">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding>
             <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -459,8 +433,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output/servicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="295" column="10" lean-forward="true" selection-start-line="295" selection-start-column="10" selection-end-line="295" selection-end-column="10" />
+        <state relative-caret-position="1589">
+          <caret line="398" column="11" selection-start-line="398" selection-start-column="11" selection-end-line="398" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/nosostros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="735" column="22" selection-start-line="735" selection-start-column="22" selection-end-line="735" selection-end-column="22" />
         </state>
       </provider>
     </entry>

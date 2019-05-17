@@ -473,6 +473,10 @@
   height: auto; }
 
 /**********************mobile primero**********************************************/
+.blog-content{
+    display: none;
+}
+
 .flex-nosotros{
   display: flex;
   flex-direction: column;
@@ -724,7 +728,19 @@ a {
   color: #dd4b39; }
 
 @media screen and (min-width: 700px) {
-  .card-wrapper-1 {
+  .blog-content{
+      display: block;
+      width: 30%;
+  }
+    .flex-nosotros{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .item-content{
+        width: 50%;
+    }
+    .card-wrapper-1 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
