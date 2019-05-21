@@ -481,6 +481,30 @@
 
 /**********************mobile primero**********************************************/
 
+.wrap-carousel{
+  background: red;
+  width: 50%;
+
+}
+.flex-padre-planes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-enlaces{
+  display:flex;
+  flex-direction: column;
+  height: 40%;
+  width: 100%;
+
+
+
+}
+.font-plan{
+  font-size: 1rem;
+  font-weight: bold;
+}
 .planes-content{
 
     margin: 0 2rem;
@@ -907,6 +931,18 @@ img {
             flex: 0 1 calc(50% - 1rem); } }
 
 @media screen and (min-width: 768px) {
+
+  .flex-padre-planes{
+  flex-direction: row;
+  }
+  .box-enlaces{
+    width: 0vw;
+    width: 20vw;
+
+  }
+  .content-planes{
+    width: 70vw;
+  }
   .entrada {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(33% - 1rem);
@@ -959,7 +995,16 @@ img {
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
+  .box-enlaces{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+.flex-padre-planes{
+  flex-direction: column;
 
+}
 }
 @media screen and (min-width: 481px) and (max-width: 992px) {
   .padre-flex-page{
