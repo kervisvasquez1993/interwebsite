@@ -277,7 +277,12 @@
     display: flex;
     width: 80%; }
   .inter-contenido .bienvenido-img {
-    width: 100%; }
+    width: 100%;
+  }
+  .bienvenido-img img{
+      width: 100%;
+      height: 100%;
+  }
   .bienvenido-contenido {
     width: 100%;
     display: -webkit-box;
@@ -376,7 +381,9 @@
 .slider-size {
   height: 80vh;
   background: red; }
+.nombre-ubicacion{
 
+}
 .nombre-ubicacion,
 .cobertura-inter {
   width: 99vw;
@@ -390,7 +397,7 @@
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -473,6 +480,41 @@
   height: auto; }
 
 /**********************mobile primero**********************************************/
+
+.planes-content{
+
+    margin: 0 2rem;
+
+}
+.content-planes{
+  background: steelblue;
+  padding: 2.5rem;
+  line-height: 20px;
+
+}
+.img-grad,
+.content-planes
+{
+    margin: 2rem;
+    text-align: center;
+}
+.font-size{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.content-img{
+  margin: 5rem;
+    height: 60vh;
+}
+.content-img img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.padre-flex-page{
+  display: flex;
+  flex-direction: column;
+}
 .blog-content{
     display: none;
 }
@@ -530,9 +572,10 @@
       -ms-flex-align: center;
           align-items: center; }
 
-.nosotro-hero btn-1 {
-  widows: 30%;
-  color: #000; }
+.nosotro-hero .btn-1 {
+
+
+  color: red; }
 
 .pago-banco{
   display: flex !important;
@@ -699,7 +742,7 @@ a {
   margin: 1rem 0;
   text-transform: uppercase;
   color: #eeeeee;
-  font-size: 1.4rem; }
+  font-size: 1rem; }
 
 .social-media-1 {
   with: 100%;
@@ -915,9 +958,31 @@ img {
         flex-direction: column;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 992px){
 
+}
 @media screen and (min-width: 481px) and (max-width: 992px) {
+  .padre-flex-page{
+    flex-direction: row;
+    justify-content: space-around;
 
+  }
+  .content-page{
+    width: 65%;
+    background: red;
+  }
+  .sidebar{
+    width: 30%;
+    background: #0f9d58;
+  }
+  .servicios{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .flex-servicio{
+    width: 33%;
+  }
   .titulo-hero{
 
   }
@@ -977,6 +1042,20 @@ img {
     text-align: center; } }
 
 @media (min-width: 992px) {
+  .padre-flex-page{
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .content-page{
+    width: 70%;
+    background: red;
+  }
+  .sidebar{
+    width: 25%;
+    background: #0f9d58;
+  }
+
   .titulo-hero{
     display: block;
   }
