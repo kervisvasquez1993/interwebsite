@@ -480,15 +480,83 @@
   height: auto; }
 
 /**********************mobile primero**********************************************/
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contactanos{
+  background: url("../img/switche.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+
+
+}
+.clientes{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background: antiquewhite;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.kervis-iconos2{
+  font-size: 3rem;
+}
+.hijo1{
+  margin: 1rem;
+
+}
+.content-contactanos{
+  font-size: 3rem;
+  font-weight: 300;
+  z-index: 100;
+}
 .text-padding{
   padding: 2rem 0;
 }
-.img-foto img{
-  border-radius: 50%;
-
-
+.planes-planes{
+  background: rgba(255,255,210,0.5);
+  
 
 }
+.display-none-2{
+  display: none;
+}
+.contenido-interwebsite-cobertura{
+  padding: 1rem 2rem;
+}
+.imagen-interwebsite img{
+  width: 100%;
+  height: 100%;
+}
+
+.cobertura .imagen-interwebsite{
+  padding: 2rem;
+}
+
+.padding{
+  padding: .5rem 2rem;
+}
+.planes-planes{
+  display: flex;
+  flex-direction: column;
+
+}
+.padding-center{
+  padding: 2rem;
+}
+
 .otros-articulos{
   display: flex;
   justify-content: space-around;
@@ -965,7 +1033,40 @@ img {
             flex: 0 1 calc(50% - 1rem); } }
 
 @media screen and (min-width: 768px) {
+  .cobertura-padre{
+    width: 80%;
+  }
+  .clientes{
+    flex-direction: row;
+  }
+  .imagen-interwebsite{
+    width:
 
+    height: auto;
+  }
+  .cobertura{
+    display: flex;
+    align-items: center;
+  }
+  
+  .display-none-2{
+    display: block;
+  }
+  .display-none-1{
+    display: none;
+  }
+  .planes-planes{
+    flex-direction:row;
+    align-items: center;
+
+
+  }
+  .planes-planes .planes-content{
+    width: 70%;
+  }
+  .imagen-interwebsite{
+    width: 100vw;
+  }
   .flex-padre-planes{
   flex-direction: row;
   }
@@ -1270,13 +1371,17 @@ img {
 .sobreMi:before {
   content: '';
   background: #000;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+  width: 110%;
+  height: 110%;
+  top: -7px;
+  left: -5px;
+
   position: absolute;
-  background: #000;
-  opacity: .5; }
+  background: white;
+  opacity: .5;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 91%, 0 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 91%, 0 100%);
+}
 
 .sobre-mi-conteiner {
   display: -webkit-box;
