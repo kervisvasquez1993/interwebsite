@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 .cabecera {
@@ -480,6 +481,72 @@
   height: auto; }
 
 /**********************mobile primero**********************************************/
+
+ .container-servicio{
+   width: 100%;
+   max-width: 1150px;
+   margin:auto;
+   padding: 50px 10px;
+   display:flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background: grey;
+ }
+
+ .tabla{
+   background: rgba(0,0,0,.7);
+   width: 350px;
+   color: #fff;
+   text-align: center;
+   border-radius: 10px;
+   cursor: pointer;
+   overflow: hidden;
+
+ }
+.titulo{
+  background: #00cd2a;
+  padding: 15px 0;
+}
+
+.titulo .fa{
+  font-size: 50px;
+}
+
+.titulo h2{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.precio h3{
+  font-size: 30px;
+  color: #00cd2a;
+}
+.precio h3 span{
+   font-size: 50px;
+  margin-left: 5px;
+}
+.descripcion ul li {
+  list-style: none;
+  padding: 10px 0 ;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.descripcion ul li .fa-check{
+  color: #00cd2a;
+}
+.descripcion ul li .fa-times{
+  color: #ff4032
+}
+.enlaces a {
+  display: inline-block ;
+  text-decoration: none;
+  background: #00cd2a;
+  color: #fff;
+  margin: 40px 0;
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-size: 22px ;
+  text-transform: uppercase;
+}
+
 
 body{
   display: flex;
@@ -1378,7 +1445,7 @@ img {
 
   position: absolute;
   background: white;
-  opacity: .5;
+  opacity: .8;
   -webkit-clip-path: polygon(0 9%, 100% 0, 100% 91%, 0 100%);
   clip-path: polygon(0 9%, 100% 0, 100% 91%, 0 100%);
 }
