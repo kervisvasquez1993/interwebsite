@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     interval: 3000,
     indicators: false
   });
+  var elems5 = document.querySelectorAll('.sidenav2');
+    var instances = M.Sidenav.init(elems5);
   var elems2 = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems2);
   var mb = document.querySelectorAll('.materialboxed');
@@ -14,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var instances = M.Collapsible.init(elems3);
   var elems4 = document.querySelectorAll('.carousel');
   var instances = M.Carousel.init(elems4);
+  var elems5 = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems5);
 });
 var btn_pintar = document.getElementById('btn_pintar');
 var kervis_pintar = document.getElementById('kervis-pintar');

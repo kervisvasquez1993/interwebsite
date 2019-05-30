@@ -481,30 +481,91 @@
   height: auto; }
 
 /**********************mobile primero**********************************************/
-
+.contacto-tele{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mar-20{
+  margin: 20px;
+}
+.font-size-2{
+  font-size: 2rem;
+}
+.font-we{
+  font-weight: bold;
+}
+.fondo-contacto{
+  background: url('../img/switche.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+.social-media-footer{
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  width: 30%;
+}
  .container-servicio{
    width: 100%;
-   max-width: 1150px;
+   
+   background: steelblue;
+   max-width: 100vw;
    margin:auto;
    padding: 50px 10px;
    display:flex;
    justify-content: space-around;
    flex-wrap: wrap;
-   background: grey;
+   position: relative
+ }
+ .contenido-servicio::before{
+   content:"";
+   position: absolute;
+   color:red;
+   opacity: 0.8;
+   width:100%;
+  
+
  }
 
+ .titulo1{
+   background: rgba(45,124,125,0.8); 
+ }
+ .titulo2{
+   background: rgba(204,254,255,0.8)
+ }
+ .titulo3{
+  background:  rgba(139,197,198,0.5);
+  }
+  .titulo4{
+    background: rgba(122,84,61,0.5)
+  }
+.tabla img{
+  height: 100%;
+  width: 100%;
+  
+  
+}
+
  .tabla{
-   background: rgba(0,0,0,.7);
+   z-index: 3;
+   opacity: 0.8;
+   margin-top: 20px;
+   background: rgba(0,0,0,0.4);
    width: 350px;
    color: #fff;
    text-align: center;
-   border-radius: 10px;
    cursor: pointer;
    overflow: hidden;
-
+  
+ }
+ .tabla:hover{
+   transform: scale(1.03);
+   -webkit-box-shadow: 0.5rem 0.5rem 3rem black;
+          box-shadow: 0.5rem 0.5rem 3rem black;
  }
 .titulo{
-  background: #00cd2a;
+  
   padding: 15px 0;
 }
 
@@ -518,7 +579,8 @@
 }
 .precio h3{
   font-size: 30px;
-  color: #00cd2a;
+  color: red;
+  padding: 20px 10px;
 }
 .precio h3 span{
    font-size: 50px;
@@ -538,13 +600,14 @@
 .enlaces a {
   display: inline-block ;
   text-decoration: none;
-  background: #00cd2a;
+  
   color: #fff;
-  margin: 40px 0;
+  margin: 5px 0;
   padding: 10px 40px;
   border-radius: 50px;
-  font-size: 22px ;
+  font-size: 15px ;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 
 
@@ -583,6 +646,9 @@ body{
 .hijo1{
   margin: 1rem;
 
+}
+.fa-check{
+  color:green;
 }
 .content-contactanos{
   font-size: 3rem;
@@ -770,7 +836,7 @@ body{
 
   color: red; }
 
-.pago-banco{
+pago-banco{
   display: flex !important;
   align-items: center !important;
 
@@ -1100,16 +1166,14 @@ img {
             flex: 0 1 calc(50% - 1rem); } }
 
 @media screen and (min-width: 768px) {
+  
   .cobertura-padre{
     width: 80%;
   }
   .clientes{
     flex-direction: row;
   }
-  .imagen-interwebsite{
-    width:
-
-    height: auto;
+  .imagen-interwebsi{
   }
   .cobertura{
     display: flex;
@@ -1197,6 +1261,8 @@ img {
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
+  
+  
   .box-enlaces{
     width: 100%;
     justify-content: space-between;
@@ -1305,6 +1371,12 @@ img {
     text-align: center; } }
 
 @media (min-width: 992px) {
+  .servicio-tecnico,
+  .cobertura,
+.planes-planes{
+    width: 100vw;
+    height: 100vh;
+  }
   .img-articulo img{
     width: 20%;
 
